@@ -1,0 +1,45 @@
+
+## config file for plotting results
+## Format goes like this:
+## # Gaussians # Case name
+## means = -4, 4
+## weights = 0.3, 0.7
+## N = 100
+## steps = 500
+## ULA 0.5 # sampler name and dt time disrcetization
+
+
+
+# Gaussians
+force = Tru
+means = -4, 4
+weights = 0.9, 0.1
+N = 10
+steps = 150
+##ULA 1.5 
+##ULA 0.1
+LD 5, 1, 0.6
+GD
+
+
+# Gaussians1
+force = Tru
+means = -4
+weights = 1.0
+N = 10
+steps = 90
+##ULA 1.5 
+ULA 0.1
+LD 5, 1, 0.75
+GD
+
+# GaussiansRandom
+force = Tru
+means = -4, 4
+weights = 0.8, 0.2
+N = 10
+steps = 200
+##SGD
+LD 5, 1, 0.6
+ULA 0.5
+GD
