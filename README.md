@@ -5,8 +5,8 @@ Kolmogorov Semigroups and Stochastic Gradient Monte-Carlo
 ---------------------------------------------------------
 by Roland Halbig
 
-From the Abstract:
------------------
+### From the Abstract: ###
+
 > Kolmogorov semigroups are a natural way of describing time evolution of Itô diffusion
 equations. These equations are an important class of so-called Langevin equations fre-
 quently used in Markov Chain Monte Carlo (MCMC) simulation and have been shown to
