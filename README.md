@@ -1,3 +1,7 @@
+Master's thesis 
+===============
 
-** Mster's thesis **
 'Kolmogorov Semigroups and Stochastic Gradient Monte-Carlo'
+-----------------------------------------------------------
+
+
